@@ -12,3 +12,30 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+@font-face {
+  font-family: "AG";
+  src: font-url("AG.woff");
+}
+body {
+	background-color: black;
+}
+.wrapper {
+	margin: 1.8vw;
+}
+h1 {
+	color: white;
+	font-family: "AG", sans-serif;
+	text-transform: uppercase;
+	font-size: 2vw;
+	margin: 0;
+}
+#title {
+	font-size: 6vw;
+}
+h2 {
+	color: white;
+	font-family: "AG", sans-serif;
+	font-size: 2vw;
+	margin: 0;	
+}
