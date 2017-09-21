@@ -14,8 +14,8 @@
 @import "pages/index";
 
 @font-face {
-  font-family: "AG";
-  src: font-url("AG.woff");
+  font-family: "AGB";
+  src: font-url("AGB.TTF");
 }
 body {
 	background-color: black;
@@ -25,7 +25,7 @@ body {
 }
 h1 {
 	color: white;
-	font-family: "AG", sans-serif;
+	font-family: "AGB", sans-serif;
 	text-transform: uppercase;
 	font-size: 2vw;
 	margin: 0;
@@ -35,7 +35,13 @@ h1 {
 }
 h2 {
 	color: white;
-	font-family: "AG", sans-serif;
+	font-family: "AGB", sans-serif;
 	font-size: 2vw;
 	margin: 0;	
+}
+h1:hover {
+	color: black;
+}
+h2:hover {
+	color: black;
 }
