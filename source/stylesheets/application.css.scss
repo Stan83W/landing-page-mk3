@@ -13,10 +13,6 @@
 @import "components/index";
 @import "pages/index";
 
-@font-face {
-  font-family: "AGB";
-  src: font-url("AGB.TTF");
-}
 body {
 	background-color: black;
 }
@@ -32,7 +28,7 @@ h1 {
 	margin: 0;
 }
 #title {
-	font-size: 6vw;
+	font-size: 5.1vw;
 }
 h2 {
 	color: white;
@@ -42,10 +38,23 @@ h2 {
 }
 .bk:hover {
 	color: black;
+	cursor: pointer; 
 	cursor: hand;
 }
 #landimg {
 	width: 100%;
 	margin-top: -1.3vw;
 	margin-left: -1.1vw;
+}
+@keyframes blink {  
+  50% { opacity: 0; }
+}
+.blink-text:hover {
+  animation: blink 1s linear infinite;
+}
+a {
+	color: white;
+}
+.hidden {
+	visibility: hidden;
 }
