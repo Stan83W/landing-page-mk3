@@ -22,12 +22,13 @@ body {
 }
 .wrapper {
 	margin: 1.8vw;
+	height: 100%;
 }
 h1 {
 	color: white;
 	font-family: "AGB", sans-serif;
 	text-transform: uppercase;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin: 0;
 }
 #title {
@@ -36,12 +37,15 @@ h1 {
 h2 {
 	color: white;
 	font-family: "AGB", sans-serif;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin: 0;	
 }
-h1:hover {
+.bk:hover {
 	color: black;
+	cursor: hand;
 }
-h2:hover {
-	color: black;
+#landimg {
+	width: 100%;
+	margin-top: -1.3vw;
+	margin-left: -1.1vw;
 }
