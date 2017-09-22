@@ -16,6 +16,9 @@
 body {
 	background-color: black;
 }
+html {
+	transition: all 0.8s ease;
+}
 .wrapper {
 	margin: 1.8vw;
 	height: 100%;
