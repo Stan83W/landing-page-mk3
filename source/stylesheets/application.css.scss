@@ -14,7 +14,7 @@
 @import "pages/index";
 
 body {
-	background-color: black;
+	background-color: rgb(15,15,15);
 }
 html {
 	transition: all 0.8s ease;
@@ -30,6 +30,11 @@ h1 {
 	font-size: 1.5vw;
 	margin: 0;
 }
+span {
+	font-family: "AGB", sans-serif;
+	text-transform: uppercase;
+	line-height: 5vw;
+}
 #title {
 	font-size: 5.2vw;
 	line-height: 5vw;
@@ -41,7 +46,7 @@ h2 {
 	margin: 0;	
 }
 .bk:hover {
-	color: black;
+	color: rgb(15,15,15);
 	cursor: pointer; 
 	cursor: hand;
 }
@@ -68,4 +73,8 @@ a:hover {
 p {
 	margin: 0;
 	line-height: 1.9vw;
+}
+.filet {
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
 }

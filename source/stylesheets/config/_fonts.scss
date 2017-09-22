@@ -9,7 +9,10 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
   font-family: "AGB";
   src: font-url("AGB.woff");
 }
-
+@font-face {
+  font-family: "AG";
+  src: font-url("AG.woff");
+}
 // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";
