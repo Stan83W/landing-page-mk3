@@ -28,7 +28,8 @@ h1 {
 	margin: 0;
 }
 #title {
-	font-size: 5.1vw;
+	font-size: 5.2vw;
+	line-height: 5vw;
 }
 h2 {
 	color: white;
@@ -55,6 +56,13 @@ h2 {
 a {
 	color: white;
 }
+a:hover {
+	text-decoration: none;
+}
 .hidden {
 	visibility: hidden;
+}
+p {
+	margin: 0;
+	line-height: 1.9vw;
 }
