@@ -7,8 +7,8 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Digital Design & Development</title>
-    <link href="stylesheets/application-bdcc6f6f.css" rel="stylesheet" />
-    <script src="javascripts/application-bec7ccef.js"></script>
+    <link href="stylesheets/application-1eba088a.css" rel="stylesheet" />
+    <script src="javascripts/application-b34d8dca.js"></script>
   </head>
   <body>
     <!-- <div class="banner" style="background-image: url('./images/landingboucle.gif');">
@@ -18,88 +18,92 @@
 <!-- 		<img src="images/landing-eaafc8b2.gif" id="landimg"> -->
 
 <div class="wrapper">
-	<div class="x">
-		<h1 class="c8 bk">Stanislas Wiart</h1>
-		<h1 class="c4 bk">Infos</h1>
-	</div>
-	<div class="x">
-		<h2 class="c8 pt6" id="title">
-			<div class="text hidden">01.
-				<span
-			    class="txt-rotate"
-			    data-period="2000"
-			    data-rotate='[ "Graphic Design" ]'></span>
-			</div>
-			<div class="text hidden">02.
-				<span
-				  class="txt-rotate"
-				  data-period="2000"
-				  data-rotate='[ "Front-End" ]'></span>
-			</div>
-			<div class="text hidden">03.
-				<span
-				  class="txt-rotate"
-				  data-period="2000"
-				  data-rotate='[ "Web Development" ]'></span> 
-			</div>
-			<div class="text hidden">04.
-				<span
-				  class="txt-rotate"
-				  data-period="2000"
-				  data-rotate='[ "UI/UX Design" ]'></span> 
-			</div>
-			<div class="text hidden">05.
-				<span
-				  class="txt-rotate"
-				  data-period="2000"
-				  data-rotate='[ "Branding" ]'></span> 
-			</div>
-			<div class="text hidden">06.
+	
+	<h1 class="c11" id="title">
+		
+		<div class="text ">01.
+			<span
+		    class="txt-rotate"
+		    data-period="2000"
+		    data-rotate='[ "Graphic Design" ]'></span>
+		</div>
+		<div class="text ">02.
 			<span
 			  class="txt-rotate"
 			  data-period="2000"
-			  data-rotate='[ "Product Design" ]'></span> 
-			</div>			
-		</h2>
+			  data-rotate='[ "Front-End" ]'></span>
+		</div>
+		<div class="text ">03.
+			<span
+			  class="txt-rotate"
+			  data-period="2000"
+			  data-rotate='[ "Development" ]'></span> 
+		</div>
+		<div class="text ">04.
+			<span
+			  class="txt-rotate"
+			  data-period="2000"
+			  data-rotate='[ "UI/UX" ]'></span> 
+		</div>
+	</h1>
 
-		<h2 class="c3 pt6">
-			<p>73 rue Lamarck
+	<div class="x" id="infos">
+
+		<h2 class="c2 mt2 ">
+			STANISLAS WIART
 				<br>75018 - Paris
 				<br>+33(0)6.61.43.11.20.		
-			</p>
-			<p>
-				<br>SOCIAL:
-				<br>Github / Instagram / Arena
-			</p>
-			<p>
-				<br>SKILLS:
-				<br>Photoshop, Illustrator, Indesign, 
-				<br>After Effects, HTML5, CSS, JS, Ruby, Rails, Github, Heroku
-			</p>
-			<p>
-				<br>SELECTED CLIENTS:
-				<br>Sephora, Dior, LVMH, PPR, Kenzo, L’Oréal, AG2R, Danone, Renault, Vendôme, Yves Rocher
-			</p>
 		</h2>
-
+		<h2 class="c2 mt2">
+					SKILLS: Creative Suite, HTML, CSS, JS, Rails, Github, Heroku
+		</h2>
+		<h2 class="c2 mt2">
+			CLIENTS: Sephora, Dior, LVMH, PPR, Kenzo, L’Oréal, Danone, Renault, Parrot
+		</h2>
+		<h2 class="c2 mt2">
+			GITHUB
+			<br>INSTAGRAM
+			<br>ARENA
+		</h2>	
 	</div>
-		<div class="x">
-		<h2 class="pt6 c8 bk">
-			<span style="text-transform: uppercase;">Typeface:</span> Akzidenz Grotesk
-			
-		</h2>
-			<h2 class="c4">
-				<a href="mailto:stanislas.wiart@gmail.com">
-				  <div class="blink-text pt6" style="text-transform: uppercase;">Send me a message</div>
-				</a>
-			</h2>
-		</div>
-		<div class="filet marquee" data-direction="right" style="margin-top: 1vw;">
-			<h1 class="" id="title" style="padding-top: 0.5vw;"><span>2017-09-22 22:02:19 +0200</span><span>2017-09-22 22:02:19 +0200</span></h1>
-			
-		</div>
+<!-- <h1 id="contact">
+	<div class="marquee prefix" data-direction='left'><span>Send me a message</span><span>Send me a message</span>
+	</div>
+</h1> -->
+	<div class="filet x c12" id="work">
+		<div class="c2 sub">Contact</div>
+		<div class="c2 sub">Work</div>
+	</div>
+	<div id="foot">
+		<h3>2017 © SW - Typeface: Akzidenz Grotesk</h3>
+		
+	</div>
 </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	(function(f){f.fn.marquee=function(x){return this.each(function(){var a=f.extend({},f.fn.marquee.defaults,x),b=f(this),c,h,t,u,k,e=3,y="animation-play-state",n=!1,E=function(a,b,c){for(var e=["webkit","moz","MS","o",""],d=0;d<e.length;d++)e[d]||(b=b.toLowerCase()),a.addEventListener(e[d]+b,c,!1)},F=function(a){var b=[],c;for(c in a)a.hasOwnProperty(c)&&b.push(c+":"+a[c]);b.push();return"{"+b.join(",")+"}"},p={pause:function(){n&&a.allowCss3Support?c.css(y,"paused"):f.fn.pause&&c.pause();b.data("runningStatus",
+	"paused");b.trigger("paused")},resume:function(){n&&a.allowCss3Support?c.css(y,"running"):f.fn.resume&&c.resume();b.data("runningStatus","resumed");b.trigger("resumed")},toggle:function(){p["resumed"==b.data("runningStatus")?"pause":"resume"]()},destroy:function(){clearTimeout(b.timer);b.find("*").andSelf().unbind();b.html(b.find(".js-marquee:first").html())}};if("string"===typeof x)f.isFunction(p[x])&&(c||(c=b.find(".js-marquee-wrapper")),!0===b.data("css3AnimationIsSupported")&&(n=!0),p[x]());else{var v;
+	f.each(a,function(c,d){v=b.attr("data-"+c);if("undefined"!==typeof v){switch(v){case "true":v=!0;break;case "false":v=!1}a[c]=v}});a.speed&&(a.duration=a.speed*parseInt(b.width(),10));u="up"==a.direction||"down"==a.direction;a.gap=a.duplicated?parseInt(a.gap):0;b.wrapInner('<div class="js-marquee"></div>');var l=b.find(".js-marquee").css({"margin-right":a.gap,"float":"left"});a.duplicated&&l.clone(!0).appendTo(b);b.wrapInner('<div style="width:100000px" class="js-marquee-wrapper"></div>');c=b.find(".js-marquee-wrapper");
+	if(u){var m=b.height();c.removeAttr("style");b.height(m);b.find(".js-marquee").css({"float":"none","margin-bottom":a.gap,"margin-right":0});a.duplicated&&b.find(".js-marquee:last").css({"margin-bottom":0});var q=b.find(".js-marquee:first").height()+a.gap;a.startVisible&&!a.duplicated?(a._completeDuration=(parseInt(q,10)+parseInt(m,10))/parseInt(m,10)*a.duration,a.duration*=parseInt(q,10)/parseInt(m,10)):a.duration*=(parseInt(q,10)+parseInt(m,10))/parseInt(m,10)}else k=b.find(".js-marquee:first").width()+
+	a.gap,h=b.width(),a.startVisible&&!a.duplicated?(a._completeDuration=(parseInt(k,10)+parseInt(h,10))/parseInt(h,10)*a.duration,a.duration*=parseInt(k,10)/parseInt(h,10)):a.duration*=(parseInt(k,10)+parseInt(h,10))/parseInt(h,10);a.duplicated&&(a.duration/=2);if(a.allowCss3Support){var l=document.body||document.createElement("div"),g="marqueeAnimation-"+Math.floor(1E7*Math.random()),A=["Webkit","Moz","O","ms","Khtml"],B="animation",d="",r="";l.style.animation&&(r="@keyframes "+g+" ",n=!0);if(!1===
+	n)for(var z=0;z<A.length;z++)if(void 0!==l.style[A[z]+"AnimationName"]){l="-"+A[z].toLowerCase()+"-";B=l+B;y=l+y;r="@"+l+"keyframes "+g+" ";n=!0;break}n&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s infinite "+a.css3easing,b.data("css3AnimationIsSupported",!0))}var C=function(){c.css("margin-top","up"==a.direction?m+"px":"-"+q+"px")},D=function(){c.css("margin-left","left"==a.direction?h+"px":"-"+k+"px")};a.duplicated?(u?a.startVisible?c.css("margin-top",0):c.css("margin-top","up"==a.direction?
+	m+"px":"-"+(2*q-a.gap)+"px"):a.startVisible?c.css("margin-left",0):c.css("margin-left","left"==a.direction?h+"px":"-"+(2*k-a.gap)+"px"),a.startVisible||(e=1)):a.startVisible?e=2:u?C():D();var w=function(){a.duplicated&&(1===e?(a._originalDuration=a.duration,a.duration=u?"up"==a.direction?a.duration+m/(q/a.duration):2*a.duration:"left"==a.direction?a.duration+h/(k/a.duration):2*a.duration,d&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s "+a.css3easing),e++):2===e&&(a.duration=a._originalDuration,
+	d&&(g+="0",r=f.trim(r)+"0 ",d=g+" "+a.duration/1E3+"s 0s infinite "+a.css3easing),e++));u?a.duplicated?(2<e&&c.css("margin-top","up"==a.direction?0:"-"+q+"px"),t={"margin-top":"up"==a.direction?"-"+q+"px":0}):a.startVisible?2===e?(d&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s "+a.css3easing),t={"margin-top":"up"==a.direction?"-"+q+"px":m+"px"},e++):3===e&&(a.duration=a._completeDuration,d&&(g+="0",r=f.trim(r)+"0 ",d=g+" "+a.duration/1E3+"s 0s infinite "+a.css3easing),C()):(C(),t={"margin-top":"up"==
+	a.direction?"-"+c.height()+"px":m+"px"}):a.duplicated?(2<e&&c.css("margin-left","left"==a.direction?0:"-"+k+"px"),t={"margin-left":"left"==a.direction?"-"+k+"px":0}):a.startVisible?2===e?(d&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s "+a.css3easing),t={"margin-left":"left"==a.direction?"-"+k+"px":h+"px"},e++):3===e&&(a.duration=a._completeDuration,d&&(g+="0",r=f.trim(r)+"0 ",d=g+" "+a.duration/1E3+"s 0s infinite "+a.css3easing),D()):(D(),t={"margin-left":"left"==a.direction?"-"+k+"px":
+	h+"px"});b.trigger("beforeStarting");if(n){c.css(B,d);var l=r+" { 100%  "+F(t)+"}",p=c.find("style");0!==p.length?p.filter(":last").html(l):c.append("<style>"+l+"</style>");E(c[0],"AnimationIteration",function(){b.trigger("finished")});E(c[0],"AnimationEnd",function(){w();b.trigger("finished")})}else c.animate(t,a.duration,a.easing,function(){b.trigger("finished");a.pauseOnCycle?b.timer=setTimeout(w,a.delayBeforeStart):w()});b.data("runningStatus","resumed")};b.bind("pause",p.pause);b.bind("resume",
+	p.resume);a.pauseOnHover&&b.bind("mouseenter mouseleave",p.toggle);n&&a.allowCss3Support?w():b.timer=setTimeout(w,a.delayBeforeStart)}})};f.fn.marquee.defaults={allowCss3Support:!0,css3easing:"linear",easing:"linear",delayBeforeStart:1E3,direction:"left",duplicated:!1,duration:5E3,gap:20,pauseOnCycle:!1,pauseOnHover:!1,startVisible:!1}})(jQuery);
+
+	$('.marquee').marquee({
+	  direction: 'left',
+	    startVisible: true,
+	  duplicated:true,
+	  pauseOnHover:true,
+	  duration:10000,
+	  delayBeforeStart:100,
+	  gap:0
+	});
+</script>
+
   </body>
 </html>
